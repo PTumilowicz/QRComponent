@@ -23,15 +23,15 @@ p {
     font-size: 15px;
 }
 
-/* Classes Styles */
-
-.wrapper {
+main {
     min-height: 100vh;
     min-width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+/* Classes Styles */
 
 .container {
     width: 18%;
