@@ -1,0 +1,50 @@
+/* HTML Elements Styles */
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: #d6e2f0;
+}
+
+img {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5%;
+}
+
+h1 {
+    padding: 0 0.4rem;
+    color: #1f3251;
+    font-size: 20px;
+}
+
+p {
+    padding: 0 0.4rem;
+    color: #7b879d;
+    font-size: 15px;
+}
+
+/* Classes Styles */
+
+.wrapper {
+    min-height: 100vh;
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 18%;
+    border-radius: 5%;
+    padding: 0.9rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+/* Media Query Mobile View */
+
+@media (max-width: 375px) {
+    .container {
+        width: 80%;
+    }
+}
